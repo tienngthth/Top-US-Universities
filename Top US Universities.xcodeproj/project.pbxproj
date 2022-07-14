@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5727709D2880013100F9A35B /* Top_US_UniversitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5727709C2880013100F9A35B /* Top_US_UniversitiesApp.swift */; };
+		5727709F2880013100F9A35B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5727709E2880013100F9A35B /* ContentView.swift */; };
+		572770A12880013200F9A35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572770A02880013200F9A35B /* Assets.xcassets */; };
+		572770A42880013200F9A35B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572770A32880013200F9A35B /* Preview Assets.xcassets */; };
+		572770AE2880013200F9A35B /* Top_US_UniversitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572770AD2880013200F9A35B /* Top_US_UniversitiesTests.swift */; };
+		572770B82880013200F9A35B /* Top_US_UniversitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572770B72880013200F9A35B /* Top_US_UniversitiesUITests.swift */; };
+		572770BA2880013200F9A35B /* Top_US_UniversitiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572770B92880013200F9A35B /* Top_US_UniversitiesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572770AA2880013200F9A35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572770912880013100F9A35B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572770982880013100F9A35B;
+			remoteInfo = "Top US Universities";
+		};
+		572770B42880013200F9A35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572770912880013100F9A35B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572770982880013100F9A35B;
+			remoteInfo = "Top US Universities";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572770992880013100F9A35B /* Top US Universities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top US Universities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5727709C2880013100F9A35B /* Top_US_UniversitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_US_UniversitiesApp.swift; sourceTree = "<group>"; };
+		5727709E2880013100F9A35B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		572770A02880013200F9A35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572770A32880013200F9A35B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		572770A92880013200F9A35B /* Top US UniversitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top US UniversitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572770AD2880013200F9A35B /* Top_US_UniversitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_US_UniversitiesTests.swift; sourceTree = "<group>"; };
+		572770B32880013200F9A35B /* Top US UniversitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top US UniversitiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572770B72880013200F9A35B /* Top_US_UniversitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_US_UniversitiesUITests.swift; sourceTree = "<group>"; };
+		572770B92880013200F9A35B /* Top_US_UniversitiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_US_UniversitiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572770962880013100F9A35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770A62880013200F9A35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770B02880013200F9A35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572770902880013100F9A35B = {
+			isa = PBXGroup;
+			children = (
+				5727709B2880013100F9A35B /* Top US Universities */,
+				572770AC2880013200F9A35B /* Top US UniversitiesTests */,
+				572770B62880013200F9A35B /* Top US UniversitiesUITests */,
+				5727709A2880013100F9A35B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5727709A2880013100F9A35B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572770992880013100F9A35B /* Top US Universities.app */,
+				572770A92880013200F9A35B /* Top US UniversitiesTests.xctest */,
+				572770B32880013200F9A35B /* Top US UniversitiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5727709B2880013100F9A35B /* Top US Universities */ = {
+			isa = PBXGroup;
+			children = (
+				5727709C2880013100F9A35B /* Top_US_UniversitiesApp.swift */,
+				5727709E2880013100F9A35B /* ContentView.swift */,
+				572770A02880013200F9A35B /* Assets.xcassets */,
+				572770A22880013200F9A35B /* Preview Content */,
+			);
+			path = "Top US Universities";
+			sourceTree = "<group>";
+		};
+		572770A22880013200F9A35B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				572770A32880013200F9A35B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		572770AC2880013200F9A35B /* Top US UniversitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				572770AD2880013200F9A35B /* Top_US_UniversitiesTests.swift */,
+			);
+			path = "Top US UniversitiesTests";
+			sourceTree = "<group>";
+		};
+		572770B62880013200F9A35B /* Top US UniversitiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				572770B72880013200F9A35B /* Top_US_UniversitiesUITests.swift */,
+				572770B92880013200F9A35B /* Top_US_UniversitiesUITestsLaunchTests.swift */,
+			);
+			path = "Top US UniversitiesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572770982880013100F9A35B /* Top US Universities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572770BD2880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US Universities" */;
+			buildPhases = (
+				572770952880013100F9A35B /* Sources */,
+				572770962880013100F9A35B /* Frameworks */,
+				572770972880013100F9A35B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top US Universities";
+			productName = "Top US Universities";
+			productReference = 572770992880013100F9A35B /* Top US Universities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572770A82880013200F9A35B /* Top US UniversitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572770C02880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US UniversitiesTests" */;
+			buildPhases = (
+				572770A52880013200F9A35B /* Sources */,
+				572770A62880013200F9A35B /* Frameworks */,
+				572770A72880013200F9A35B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572770AB2880013200F9A35B /* PBXTargetDependency */,
+			);
+			name = "Top US UniversitiesTests";
+			productName = "Top US UniversitiesTests";
+			productReference = 572770A92880013200F9A35B /* Top US UniversitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572770B22880013200F9A35B /* Top US UniversitiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572770C32880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US UniversitiesUITests" */;
+			buildPhases = (
+				572770AF2880013200F9A35B /* Sources */,
+				572770B02880013200F9A35B /* Frameworks */,
+				572770B12880013200F9A35B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572770B52880013200F9A35B /* PBXTargetDependency */,
+			);
+			name = "Top US UniversitiesUITests";
+			productName = "Top US UniversitiesUITests";
+			productReference = 572770B32880013200F9A35B /* Top US UniversitiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572770912880013100F9A35B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					572770982880013100F9A35B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					572770A82880013200F9A35B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 572770982880013100F9A35B;
+					};
+					572770B22880013200F9A35B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 572770982880013100F9A35B;
+					};
+				};
+			};
+			buildConfigurationList = 572770942880013100F9A35B /* Build configuration list for PBXProject "Top US Universities" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572770902880013100F9A35B;
+			productRefGroup = 5727709A2880013100F9A35B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572770982880013100F9A35B /* Top US Universities */,
+				572770A82880013200F9A35B /* Top US UniversitiesTests */,
+				572770B22880013200F9A35B /* Top US UniversitiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572770972880013100F9A35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572770A42880013200F9A35B /* Preview Assets.xcassets in Resources */,
+				572770A12880013200F9A35B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770A72880013200F9A35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770B12880013200F9A35B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572770952880013100F9A35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5727709F2880013100F9A35B /* ContentView.swift in Sources */,
+				5727709D2880013100F9A35B /* Top_US_UniversitiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770A52880013200F9A35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572770AE2880013200F9A35B /* Top_US_UniversitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572770AF2880013200F9A35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572770BA2880013200F9A35B /* Top_US_UniversitiesUITestsLaunchTests.swift in Sources */,
+				572770B82880013200F9A35B /* Top_US_UniversitiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572770AB2880013200F9A35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572770982880013100F9A35B /* Top US Universities */;
+			targetProxy = 572770AA2880013200F9A35B /* PBXContainerItemProxy */;
+		};
+		572770B52880013200F9A35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572770982880013100F9A35B /* Top US Universities */;
+			targetProxy = 572770B42880013200F9A35B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		572770BB2880013200F9A35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		572770BC2880013200F9A35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572770BE2880013200F9A35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Top US Universities/Preview Content\"";
+				DEVELOPMENT_TEAM = S26785LFTB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-Universities";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		572770BF2880013200F9A35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Top US Universities/Preview Content\"";
+				DEVELOPMENT_TEAM = S26785LFTB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-Universities";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		572770C12880013200F9A35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S26785LFTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-UniversitiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top US Universities.app/Top US Universities";
+			};
+			name = Debug;
+		};
+		572770C22880013200F9A35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S26785LFTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-UniversitiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top US Universities.app/Top US Universities";
+			};
+			name = Release;
+		};
+		572770C42880013200F9A35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S26785LFTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-UniversitiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Top US Universities";
+			};
+			name = Debug;
+		};
+		572770C52880013200F9A35B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S26785LFTB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.rmit.Tien.Top-US-UniversitiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Top US Universities";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572770942880013100F9A35B /* Build configuration list for PBXProject "Top US Universities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572770BB2880013200F9A35B /* Debug */,
+				572770BC2880013200F9A35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572770BD2880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US Universities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572770BE2880013200F9A35B /* Debug */,
+				572770BF2880013200F9A35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572770C02880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US UniversitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572770C12880013200F9A35B /* Debug */,
+				572770C22880013200F9A35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572770C32880013200F9A35B /* Build configuration list for PBXNativeTarget "Top US UniversitiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572770C42880013200F9A35B /* Debug */,
+				572770C52880013200F9A35B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 572770912880013100F9A35B /* Project object */;
+}
