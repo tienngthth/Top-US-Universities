@@ -1,9 +1,14 @@
-//
-//  ShareButton.swift
-//  Top US Universities
-//
-//  Created by Tien Nguyen on 17/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Thi Thuy Tien
+  ID: s3757934
+  Created  date: 14/07/2022.
+  Last modified: 28/07/2022.
+  Acknowledgement: https://designcode.io/swiftui-handbook-share-sheet
+*/
 
 import SwiftUI
 
@@ -11,8 +16,11 @@ struct ShareButton: View {
     var university: University
     
     func actionSheet() {
+        // check valid url
         guard let data = URL(string: university.officialLink) else { return }
         let av = UIActivityViewController(activityItems: [data], applicationActivities: nil)
+        
+        // open the share window
         UIApplication.shared.windows.first?.rootViewController?.present(
             av,
             animated: true,

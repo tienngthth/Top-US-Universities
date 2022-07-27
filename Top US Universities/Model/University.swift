@@ -1,9 +1,14 @@
-//
-//  University.swift
-//  Top US Universities
-//
-//  Created by Tien Nguyen on 14/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Thi Thuy Tien
+  ID: s3757934
+  Created  date: 14/07/2022.
+  Last modified: 28/07/2022.
+  Acknowledgement: Acknowledge the resources that you use here.
+*/
 
 import Foundation
 import SwiftUI
@@ -33,10 +38,9 @@ struct University: Hashable, Codable, Identifiable {
     private var lat: Double
     private var long: Double
     var locationCoordinate: CLLocationCoordinate2D {
-            CLLocationCoordinate2D(
-                latitude: lat,
-                longitude: long)
-        }
-    
-  
+        CLLocationCoordinate2D(
+            latitude: lat,
+            longitude: long
+        )
+    }
 }

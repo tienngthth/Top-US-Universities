@@ -31,7 +31,7 @@
  },
  {
    "name": "Massachusetts Institute of Technology",
-   "imageNames": ["mit"],
+   "imageNames": ["mit", "mit-2", "mit-3"],
    "yearFounded": 1861,
    "rating": 2,
    "phone": "(617) 253-1000",
@@ -46,7 +46,7 @@
  },
  {
    "name": "Yale University",
-   "imageNames": ["yale"],
+   "imageNames": ["yale", "yale-2", "yale-3"],
    "yearFounded": 1701,
    "rating": 5,
    "phone": "(203) 432-4771",
@@ -61,7 +61,7 @@
  },
  {
    "name": "Stanford University",
-   "imageNames": ["stanford"],
+   "imageNames": ["stanford", "stanford-2", "stanford-3"],
    "yearFounded": 1885,
    "rating": 6,
    "phone": "(650) 723-2300",
@@ -76,7 +76,7 @@
  },
  {
    "name": "University of Chicago",
-   "imageNames": ["uc"],
+   "imageNames": ["uc", "uc-2", "uc-3"],
    "yearFounded": 1890,
    "rating": 6,
    "phone": "(773) 702-1234",
@@ -91,7 +91,7 @@
  },
  {
    "name": "University of Pennsylvania",
-   "imageNames": ["upenn"],
+   "imageNames": ["upenn", "upenn-2", "upenn-3"],
    "yearFounded": 1740,
    "rating": 8,
    "phone": "(215) 898-5000",
@@ -106,13 +106,13 @@
  },
  {
    "name": "California Institute of Technology",
-   "imageNames": ["caltech"],
+   "imageNames": ["caltech", "caltech-2", "caltech-3"],
    "yearFounded": 1891,
    "rating": 9,
    "phone": "(626) 395-6811",
    "description": "California Institute of Technology is a private institution that was founded in 1891. It has a total undergraduate enrollment of 901 (fall 2020), its setting is suburban, and the campus size is 124 acres. It utilizes a quarter-based academic calendar. California Institute of Technology's ranking in the 2022 edition of Best Colleges is National Universities, #9. Its tuition and fees are $58,680.\n\nCaltech, which focuses on science and engineering, is located in Pasadena, California, approximately 11 miles northeast of Los Angeles. Social and academic life at Caltech centers on 11 student residences and houses, which the school describes as \"self-governing living groups.\" Student houses incorporate an admired Caltech tradition: dinners served by student waiters. Only freshmen are required to live on campus, but more than 80% of students remain in their house for all four years. The Caltech Beavers have a number of NCAA Division III teams that compete in the Southern California Intercollegiate Athletic Conference. Integral to student life is the Honor Code, which dictates that \"No member of the Caltech community shall take unfair advantage of any other member of the Caltech community.\"",
    "lat": 41.7877,
-   "long": 87.5888,
+   "long": -87.5888,
    "fullAddress": " 5801 S Ellis Ave, Chicago, Illinois",
    "isFavorite": false,
    "mapLink": "https://goo.gl/maps/5gFmbYPNET7UhqcSA",
@@ -121,7 +121,7 @@
  },
  {
    "name": "Duke University",
-   "imageNames": ["du"],
+   "imageNames": ["du", "du-2", "du-3"],
    "yearFounded": 1838,
    "rating": 9,
    "phone": "(919) 684-2724",
@@ -136,7 +136,7 @@
  },
  {
    "name": "Johns Hopkins University",
-   "imageNames": ["jhu"],
+   "imageNames": ["jhu", "jhu-2", "jhu-3"],
    "yearFounded": 1876,
    "rating": 9,
    "phone": "(941) 516-8000",
@@ -151,7 +151,7 @@
  },
  {
    "name": "Northwestern University",
-   "imageNames": ["nwu"],
+   "imageNames": ["nwu", "nwu-2", "nwu-3"],
    "yearFounded": 1851,
    "rating": 9,
    "phone": "(847) 491-3741",
@@ -166,7 +166,7 @@
  },
  {
    "name": "Dartmouth College",
-   "imageNames": ["dartmouth"],
+   "imageNames": ["dartmouth", "dartmouth-2", "dartmouth-3"],
    "yearFounded": 1769,
    "rating": 13,
    "phone": "(603) 646-1110",
@@ -196,7 +196,7 @@
  },
  {
    "name": "Vanderbilt University",
-   "imageNames": ["vanderbilt"],
+   "imageNames": ["vanderbilt", "vanderbilt-2", "vanderbilt-3"],
    "yearFounded": 1873,
    "rating": 14,
    "phone": "(615) 322-7311",

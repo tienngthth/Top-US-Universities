@@ -1,9 +1,14 @@
-//
-//  MapView.swift
-//  Top US Universities
-//
-//  Created by Tien Nguyen on 14/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Thi Thuy Tien
+  ID: s3757934
+  Created  date: 14/07/2022.
+  Last modified: 28/07/2022.
+  Acknowledgement: https://developer.apple.com/documentation/mapkit/mapmarker
+*/
 
 import SwiftUI
 import MapKit
@@ -19,26 +24,32 @@ struct MapView: View {
     var zoomDegree: [Double]
 
     var body: some View {
+        // prepare a list of map maker annotation
         let markers = coordinates.map{ Marker(location: MapMarker(coordinate: $0, tint: .red)) }
+        
         ZStack {
+            
+            // set map region and markers
             Map(coordinateRegion: $region, annotationItems: markers) { marker in
-                    marker.location
-                }
-                .onAppear {
-                    setRegion(coordinates.last!)
-                }
+                marker.location
+            }
+            .onAppear {
+                setRegion(coordinates.last!)
+            }
+            
+            // button to zoom in and out
             VStack {
+                
+                // zoom in button
                 Button(action: {
-                        region.span.latitudeDelta *= 0.5
-                        region.span.longitudeDelta *= 0.5
+                    zoomIn()
                 }) {
                     Text("➕")
                 }
+                
+                // zoom out button
                 Button(action: {
-                    if ((region.span.latitudeDelta + region.center.latitude) < 90) {
-                        region.span.latitudeDelta *= 2
-                        region.span.longitudeDelta *= 2
-                    }
+                    zoomOut()
                 }) {
                     Text("➖")
                 }
@@ -48,6 +59,18 @@ struct MapView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
             .offset(x: -10, y: -30)
             
+        }
+    }
+    
+    private func zoomIn() {
+        region.span.latitudeDelta *= 0.5
+        region.span.longitudeDelta *= 0.5
+    }
+    
+    private func zoomOut() {
+        if ((region.span.latitudeDelta + region.center.latitude) < 90) {
+            region.span.latitudeDelta *= 2
+            region.span.longitudeDelta *= 2
         }
     }
     

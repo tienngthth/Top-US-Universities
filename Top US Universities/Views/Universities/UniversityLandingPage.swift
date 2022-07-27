@@ -1,27 +1,28 @@
-//
-//  UniversityLandingPage.swift
-//  Top US Universities
-//
-//  Created by Tien Nguyen on 27/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Nguyen Thi Thuy Tien
+  ID: s3757934
+  Created  date: 14/07/2022.
+  Last modified: 28/07/2022.
+  Acknowledgement: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-basic-animations
+*/
 
 import SwiftUI
-
-struct MyButtonStyle: ButtonStyle {
-
-  func makeBody(configuration: Self.Configuration) -> some View {
-    configuration.label
-          .scaleEffect(configuration.isPressed ? 1.1 : 1.0)
-  }
-}
-
 
 struct UniversityLandingPage: View {
     @State var scale = 0.1
     @Binding var showLandingPage: Bool
+    
     var body: some View {
         VStack {
+            
+            // App Icon
             CircleImage(image: Image("university"))
+            
+            // Button to start view universities
             HStack {
                 Button(action: {
                     showLandingPage = false
@@ -34,12 +35,13 @@ struct UniversityLandingPage: View {
                     .font(.system(size: 30))
                     .foregroundColor(.gray)
                 }
-                .buttonStyle(MyButtonStyle())
             }
         }
         .scaleEffect(scale)
         .onAppear {
-            _ = Animation.easeInOut(duration: 5)
+            
+            // appearance animation with duration = 1
+            _ = Animation.easeInOut(duration: 1)
             withAnimation() {
                 scale = 1
             }
