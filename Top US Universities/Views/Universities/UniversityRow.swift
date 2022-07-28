@@ -24,7 +24,14 @@ struct UniversityRow: View {
                 .frame(width: 50, height: 50)
             
             // university name and rating
-            Text("#\(university.rating) \(university.name)")
+            VStack(alignment: .leading) {
+                Text("\(university.name)")
+                Text("#\(university.rating)")
+                    .fontWeight(.light)
+                    .foregroundColor(.gray)
+                    .font(.system(size: 15))
+            }
+            
             Spacer()
             
             // university favorite mark

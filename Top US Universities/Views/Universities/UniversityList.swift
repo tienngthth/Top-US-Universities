@@ -29,7 +29,9 @@ struct UniversityList: View {
         if searchText.isEmpty {
             return filteredUniversities
         } else {
-            return filteredUniversities.filter { $0.name.contains(searchText) }
+            return filteredUniversities.filter {
+                $0.name.contains(searchText) || String($0.rating).contains(searchText)
+            }
         }
     }
     

@@ -38,7 +38,7 @@ struct UniversityDetailActions: View {
                 buttonText: "Open Site",
                 buttonImage: "arrow.up.right",
                 confirmSubMessage: "The app wants to open web browser",
-                confirmMessage: "Open Scholl Website",
+                confirmMessage: "Open School Website",
                 customConfirm: true,
                 url: university.officialLink)
             Spacer()
