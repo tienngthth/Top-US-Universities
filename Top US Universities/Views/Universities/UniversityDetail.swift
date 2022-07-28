@@ -36,15 +36,18 @@ struct UniversityDetail: View {
                     .offset(x: 20)
                     .padding(.bottom, -80)
                 
-                // university information
+                
                 VStack(alignment: .leading) {
+                    
+                    // university information
                     Group {
                         
                         // univeristy rank
                         Text("\(getIcon(rank: university.rating))#\(String(university.rating))")
                             .fontWeight(.bold)
                         
-                        HStack(alignment: .top) {
+                        // university headline
+                        HStack(alignment: .center) {
                             
                             // univeristy name
                             Text(university.name)
@@ -58,35 +61,55 @@ struct UniversityDetail: View {
                             // button to share university link
                             ShareButton(university: university)
                         }
+                        
+                        // university essential information
                         Text(university.fullAddress)
                         Text(university.phone)
                         Text(university.officialLink)
                     }
-                    .padding(.bottom, 2)
-                    
-                    Group {
                         
-                        // buttons to make phone call, open map, official link
+                    // buttons to make phone call, open map, official link
+                    Group {
                         Divider()
                         UniversityDetailActions(university: university)
-                        
-                        // university description
+                            .padding(.horizontal, 20)
+                    }
+                    
+                    // university description
+                    Group {
                         Divider()
+                            .padding(.bottom, 5)
+                        Text("Overview")
+                            .fontWeight(.semibold)
+                            .font(.system(size: 20))
+                            .padding(.bottom, 1)
                         Text(university.description)
                             .lineSpacing(12)
-                        
-                        // university map view
+                    }
+                    
+                    // university map view
+                    Group {
                         Divider()
+                            .padding(.top, 10)
+                        Text("Map")
+                            .fontWeight(.semibold)
+                            .font(.system(size: 20))
                         MapView(coordinates: [university.locationCoordinate], zoomDegree: [0.0001, 0.01])
                             .ignoresSafeArea(edges: .top)
                             .frame(height: 300)
-                        
-                        // university official youtube
+                    }
+                    
+                    // university official youtube
+                    Group {
                         Divider()
+                            .padding(.top, 10)
+                        Text("Youtube Channel")
+                            .fontWeight(.semibold)
+                            .font(.system(size: 20))
                         YoutubeView(videoURL: university.videoLink)
                             .frame(height: 350)
                     }
-                    .padding(.bottom, 10)
+                    
                 }
                 .padding()
             }
