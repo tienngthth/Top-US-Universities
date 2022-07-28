@@ -19,6 +19,7 @@
 		57403E692883136200809505 /* UniversityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57403E682883136200809505 /* UniversityMap.swift */; };
 		578840172891928D0053AAFF /* UniversityLandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578840162891928D0053AAFF /* UniversityLandingPage.swift */; };
 		57884019289196260053AAFF /* UniversityHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57884018289196260053AAFF /* UniversityHome.swift */; };
+		579C018328927D88000AA118 /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 579C018228927D88000AA118 /* document.pdf */; };
 		57A98E432880035300BC3CCA /* universities.json in Resources */ = {isa = PBXBuildFile; fileRef = 57A98E422880035300BC3CCA /* universities.json */; };
 		57A98E452880038200BC3CCA /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A98E442880038200BC3CCA /* University.swift */; };
 		57A98E472880052000BC3CCA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A98E462880052000BC3CCA /* CircleImage.swift */; };
@@ -66,6 +67,7 @@
 		57403E682883136200809505 /* UniversityMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityMap.swift; sourceTree = "<group>"; };
 		578840162891928D0053AAFF /* UniversityLandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityLandingPage.swift; sourceTree = "<group>"; };
 		57884018289196260053AAFF /* UniversityHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityHome.swift; sourceTree = "<group>"; };
+		579C018228927D88000AA118 /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
 		57A98E422880035300BC3CCA /* universities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = universities.json; sourceTree = "<group>"; };
 		57A98E442880038200BC3CCA /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
 		57A98E462880052000BC3CCA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		572770902880013100F9A35B = {
 			isa = PBXGroup;
 			children = (
+				579C018228927D88000AA118 /* document.pdf */,
 				5727709B2880013100F9A35B /* Top US Universities */,
 				572770AC2880013200F9A35B /* Top US UniversitiesTests */,
 				572770B62880013200F9A35B /* Top US UniversitiesUITests */,
@@ -325,6 +328,7 @@
 				57A98E432880035300BC3CCA /* universities.json in Resources */,
 				572770A42880013200F9A35B /* Preview Assets.xcassets in Resources */,
 				572770A12880013200F9A35B /* Assets.xcassets in Resources */,
+				579C018328927D88000AA118 /* document.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
